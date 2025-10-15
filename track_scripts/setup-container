@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euxo pipefail
+
+# Install Python
+apt-get update
+apt-get install -y python3
+
+# (optional) Verify
+python3 --version
+
+agent variable set SANDBOX_ID "${INSTRUQT_PARTICIPANT_ID}"
+
+agent variable set WINDOWS_HOST windows.${_SANDBOX_ID}.svc.cluster.local

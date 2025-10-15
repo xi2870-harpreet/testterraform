@@ -1,11 +1,34 @@
-#!/bin/bash
-set -euxo pipefail
+#!/usr/bin/env python3
+import os
+import sys
 
-echo "Checking if the folder instruqt exists."
+def fail_message(message: str):
+    """
+    Mimics Instruqt's `fail-message` behavior:
+    Prints the message to stderr and exits with non-zero status
+    so the step fails in Instruqt.
+    """
+    print(message, file=sys.stderr)
+    sys.exit(1)
 
-if [ -d /root/instruqt ]
-then
-    echo "The folder instruqt exists"
-else
-    fail-message "There is no folder named instruqt, did you create it?"
-fi
+print("Checking if the folder instruqt exists.")
+
+if os.path.isdir("/root/instruqt"):
+    print("The folder instruqt exists")
+else:
+    fail_message("There is no folder named instruqt, did you create it?")
+    
+
+
+# #!/bin/bash
+# set -euxo pipefail
+
+#echo "Checking if the folder instruqt exists."
+
+#if [ -d /root/instruqt ]
+#then
+#    echo "The folder instruqt exists"
+#else
+#    fail-message "There is no folder named instruqt, did you create it?"
+#fi
+
