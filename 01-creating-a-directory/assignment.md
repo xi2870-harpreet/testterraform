@@ -34,6 +34,11 @@ enhanced_loading: null
 > [!Hello3]
 > Be cautious when enabling public IP addresses for VM instances in Google Cloud. This exposes your instances to the internet and may lead to unauthorized access if not properly secured.
 
+Hello my SANDBOX ID is   [[ Instruqt-Var key="SANDBOX_ID" hostname="container" ]]
+
+Please open below link:
+https://student[[ Instruqt-Var key="SANDBOX_ID" hostname="container" ]].highvelocitynetworking.com/
+
 SANDBOX ID :
 ```
 Hello my SANDBOX ID is   [[ Instruqt-Var key="SANDBOX_ID" hostname="container" ]]
