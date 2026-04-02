@@ -6,7 +6,7 @@ title: Creating a directory
 teaser: Learn how to create directory
 notes:
 - type: text
-  contents: "# This one takes a while to load\n\n## It's a good time to grab a coffee\nor
+  contents: "# This one takes a while to loadd\n\n## It's a good time to grab a coffee\nor
     tea\n\n(or to bring it away \U0001F63C)\n\nhttps://images.app.goo.gl/WbBawqZPafuZ4gfN9\n\n[button
     label=\"Notes\"](https://play.instruqt.com/manage/instruqt-support/tracks/notes-formatting-testing/challenges/creating-a-directory/notes)\n\n[button
     label=\"Notes-test\"](https://play.instruqt.com/instruqt-support/tracks/notes-formatting-testing/challenges/creating-a-directory/assignment#tab-0)\n\n[button
