@@ -11,3 +11,13 @@ python3 --version
 agent variable set SANDBOX_ID "${INSTRUQT_PARTICIPANT_ID}"
 
 agent variable set WINDOWS_HOST windows.${_SANDBOX_ID}.svc.cluster.local
+
+echo "This is the secret testing"
+echo "Secret value is:" $hrushi_test_secret
+echo "Secret value is:" ${hrushi_test_secret}
+
+
+agent variable set username Alice
+agent variable get username
+
+

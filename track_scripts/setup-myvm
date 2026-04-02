@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euxo pipefail
+
+agent variable set FULL_HOSTNAME "p-${_SANDBOX_ID}-lb-0.c.participants-instruqt-prod.internal"
+agent variable set PUBLIC_DNS "lb-0.${_SANDBOX_ID}.instruqt.io"
+sed -i "s/ lb-0\./ p-${_SANDBOX_ID}-lb-0.c.participants-instruqt-prod.internal lb-0./g" /etc/hosts
+

@@ -11,17 +11,53 @@ notes:
     label=\"Notes\"](https://play.instruqt.com/manage/instruqt-support/tracks/notes-formatting-testing/challenges/creating-a-directory/notes)\n\n[button
     label=\"Notes-test\"](https://play.instruqt.com/instruqt-support/tracks/notes-formatting-testing/challenges/creating-a-directory/assignment#tab-0)\n\n[button
     label=\"Notes-test0\"](tab-0)\n\n\n"
+- type: video
+  url: https://youtu.be/S9mohJI_R34?si=zTMQ6vjcLW_cVgrD
 tabs:
 - id: c823wajvxwx3
   title: Shell
   type: terminal
   hostname: container
+- id: w1uslwrsfgku
+  title: VM Shell
+  type: terminal
+  hostname: myvm
+  path: ?workdir=%2F
 difficulty: basic
 timelimit: 600
 lab_config:
   default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
+New change is here............
+
+Hello my name is: ${myColor}
+
+[[ Instruqt-Var key="myColor" hostname="container" ]]
+
+[[ Instruqt-Var key="username" hostname="container" ]]
+
+---
+<style type="text/css" rel="stylesheet">
+hr.cyan { background-color: cyan; color: cyan; height: 2px; margin-bottom: -10px; }
+h2.cyan { color: cyan; }
+</style>
+
+To get a cyan colored header with a horizontal rule under it:
+
+<h2 class="cyan">Terminal and Editor Basics</h2>
+<hr class="cyan">
+
+
+
+1. In the  [button label="Control-M SaaS"](tab-0) tab, go to **Configuration** on the top-right by clicking on the  <img src="https://play.instruqt.com/assets/tracks/3kwnu1bdri58/59d766a0241b4a7455b35b85fbade6c1/assets/Test_Sep-15-2025_at_15.22.46-image.png" alt="app-icon" style="display:inline; height:20px; vertical-align:middle;" /> **Application Menu**.
+
+1. In the  [button label="Control-M SaaS"](tab-0) tab, go to **Configuration** on the top-right by clicking on the  <img src="![Test_Sep-15-2025_at_15.22.46-image.png]" alt="app-icon" style="display:inline; height:20px; vertical-align:middle;" /> **Application Menu**.
+
+
+
+
+
 > [!IMPORTANT]
 > Testing
 

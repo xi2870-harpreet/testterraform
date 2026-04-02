@@ -11,3 +11,6 @@ virtualmachines:
   image: ubuntu-os-cloud/ubuntu-2404-noble-amd64-v20241004
   memory: 4096
   cpus: 1
+  nested_virtualization: true
+secrets:
+- name: hrushi_test_secret

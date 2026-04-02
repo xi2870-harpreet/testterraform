@@ -5,7 +5,11 @@
 # The platform determines if the script was successful using the exit code of this
 # script. If the exit code is not 0, the script fails.
 #
+Agent-Variable-Set Name Alice
 
-echo "This is the setup script for 3rd challenge"
+Agent-Variable-Get Name
+
+
+echo "This is the setup script for challenge 1"
 
 exit 0
